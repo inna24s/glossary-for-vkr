@@ -1,0 +1,16 @@
+version: '1'
+services:
+
+  glossary-server:
+    build: ./glossary-server
+    container_name: glossary-server
+    ports:
+      - 8080:8080
+
+  glossary-website:
+    build: ./glossary-website
+    container_name: glossary-website
+    ports:
+      - 4200:80
+    links:
+      - glossary-server

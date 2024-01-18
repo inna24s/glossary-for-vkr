@@ -1,0 +1,142 @@
+{
+  "nodes": [
+    {
+      "id": "framework",
+      "label": "Фреймворк"
+    }, {
+      "id": "Angular",
+      "label": "Angular"
+    }, {
+      "id": "Vue",
+      "label": "Vue"
+    }, {
+      "id": "metrics",
+      "label": "Метрики производительности"
+    }, {
+      "id": "FCP",
+      "label": "First Contentful Paint"
+    }, {
+      "id": "LCP",
+      "label": "Largest Contentful Paint"
+    }, {
+      "id": "TBT",
+      "label": "Total Blocking Time"
+    }, {
+      "id": "TTI",
+      "label": "Time to Interactive"
+    }, {
+      "id": "chrome",
+      "label": "ChromeDevTools"
+    }, {
+      "id": "WebPageTest",
+      "label": "WebPageTest"
+    }, {
+      "id": "PageSpeedInsight",
+      "label": "Page Speed Insight"
+    }, {
+      "id": "MVC",
+      "label": "MVC"
+    }, {
+      "id": "MVVM",
+      "label": "MVVM"
+    }, {
+      "id": "pattern",
+      "label": "Паттерн проектирования"
+    }, {
+      "id": "SPA",
+      "label": "SPA"
+    }, {
+      "id": "speed",
+      "label": "Производительность"
+    }
+  ],
+  "links":[
+    {
+      "id": "a1",
+      "source": "MVC",
+      "target": "pattern",
+      "label": "это"
+    }, {
+      "id": "a2",
+      "source": "MVVM",
+      "target": "pattern",
+      "label": "это"
+    }, {
+      "id": "a3",
+      "source": "metrics",
+      "target": "FCP",
+      "label": "включают в себя"
+    }, {
+      "id": "a4",
+      "source": "metrics",
+      "target": "LCP",
+      "label": "включают в себя"
+    }, {
+      "id": "a5",
+      "source": "metrics",
+      "target": "TBT",
+      "label": "включают в себя"
+    }, {
+      "id": "a6",
+      "source": "metrics",
+      "target": "TTI",
+      "label": "включают в себя"
+    },
+    {
+      "id": "a7",
+      "source": "metrics",
+      "target": "chrome",
+      "label": "измеряются с помощью"
+    }, {
+      "id": "a8",
+      "source": "metrics",
+      "target": "WebPageTest",
+      "label": "измеряются с помощью"
+    }, {
+      "id": "a9",
+      "source": "metrics",
+      "target": "PageSpeedInsight",
+      "label": "измеряются с помощью"
+    }, {
+      "id": "a10",
+      "source": "Angular",
+      "target": "SPA",
+      "label": "фреймворк для создания"
+    }, {
+      "id": "a11",
+      "source": "Angular",
+      "target": "framework",
+      "label": "это"
+    }, {
+      "id": "a12",
+      "source": "Vue",
+      "target": "framework",
+      "label": "это"
+    }, {
+      "id": "a13",
+      "source": "Angular",
+      "target": "MVC",
+      "label": "реализует"
+    }, {
+      "id": "a14",
+      "source": "Vue",
+      "target": "MVVM",
+      "label": "реализует"
+    }, {
+      "id": "a15",
+      "source": "metrics",
+      "target": "speed",
+      "label": "характеризуют"
+    }, {
+      "id": "a16",
+      "source": "Vue",
+      "target": "speed",
+      "label": "имеет высошую"
+    }, {
+      "id": "a17",
+      "source": "Angular",
+      "target": "speed",
+      "label": "имеет высошую"
+    }
+  ]
+}

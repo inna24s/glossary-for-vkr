@@ -1,0 +1,9 @@
+<h2 class="content-block">Глоссарий</h2>
+<div class="card-view">
+  <div class="card" *ngFor="let item of glossary | keyvalue">
+    <div class="info">
+      <p class="label">{{item.key}}</p>
+      <p class="description">{{item.value}}</p>
+    </div>
+  </div>
+</div>
