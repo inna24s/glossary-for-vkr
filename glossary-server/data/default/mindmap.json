@@ -131,12 +131,17 @@
       "id": "a16",
       "source": "Vue",
       "target": "speed",
-      "label": "имеет высошую"
+      "label": "имеет высокую"
     }, {
       "id": "a17",
       "source": "Angular",
       "target": "speed",
-      "label": "имеет высошую"
+      "label": "имеет высокую"
+    }, {
+      "id": "a18",
+      "source": "Vue",
+      "target": "SPA",
+      "label": "фреймворк для создания"
     }
   ]
 }
